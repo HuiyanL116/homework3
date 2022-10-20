@@ -88,7 +88,7 @@ nav{
   background-color: #ddd;
   padding: 20px 0;
   text-align: left;
-  align-self: left;
+  justify-content: start;
   /*Your code here*/
   /*Span the top row*/
   grid-column: 1 / 4;
@@ -196,7 +196,7 @@ img{
     background-color: #ddd;
     text-align: right;
     padding: 35px 0px;
-    align-self: right;
+    justify-content: end;
     grid-column: 1 / -1;
   }
 
